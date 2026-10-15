@@ -1,0 +1,15 @@
+PAC DESARROLLO - Lenguaje de marcas.
+Nombre: María Gómez Cid. 
+Grupo Musical: Estopa.
+Fecha de realización: 9-04-2026.
+
+Descripción:
+Este proyecto es una página web dedicada al grupo Estopa. 
+Consta de una página de inicio con su biografía y una página 
+de conciertos con sus próximas fechas.
+
+Estructura:
+- index.html: Página de inicio.
+- conciertos.html: Listado de fechas y precios.
+- css/styles.css: Hoja de estilos con tipografías Verdana y Calibri.
+- img/grupo.jpg: Imagen principal del dúo.

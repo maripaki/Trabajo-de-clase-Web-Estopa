@@ -1,0 +1,67 @@
+*{
+    margin: 0; /*Anula los márgenes predeterminados */
+    padding: 0; /*Elimina el relleno interno */
+    box-sizing: border-box; /*Controla el tamaño total del modelo de la caja*/
+}
+body {  /*Selecciona toda la página*/
+    background-color: #f0f2f5;/* Color de fondo claro solicitado */
+    font-family: Calibri, sans-serif;/* Fuente principal de la Pac */
+    color: #333; /*Define un gris oscuro para el texto principal*/
+    line-height: 1.6; /*Aplica el interlineado*/
+}
+h1, h2 { /*Aplica los mismos estilos a ambos niveles de títulos a la vez*/
+    font-family: Verdana, sans-serif; /*Fuente específica solicitada para encabezados */
+    color: #cc0000;/* Color rojo corporativo */
+    text-align: center;/* Alineación centrada para mejorar la legibilidad visual */
+}
+.foto-grupo {
+    display: block;/* Permite centrar la imagen usando márgenes */
+    margin: 0 auto;/* Centrado horizontal automático */
+    max-width: 400px;/* Tamaño máximo solicitado de la imagen */
+    width: 100%; /*Asegura que la imagen sea responsiva y se adapte al ancho de su contenedor*/
+    border-radius: 20px;/* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra suave */
+}
+.descripcion { /*Selector de clase para aplicar estilos específicos al bloque de contenido*/
+    background-color: white; /* Fondo blanco para las secciones solicitado */
+    border-radius: 15px; /* Bordes redondeados de la sección */
+    max-width: 800px; /* Ancho de la sección  */
+    margin: 30px auto; /* Centra la caja blanca en la pantalla */
+    padding: 25px; /* Espaciado interno para que el texto no toque los bordes */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /*Añade una sombra paralela para dar relieve*/
+}
+ .descripcion p { /*Selector que aplica estilos solo a los párrafos dentro de esa clase*/
+    text-align: justify; /* Para que el párrafo quede cuadrado y limpio */
+ }
+table { /*Selecciona el elemento tabla completo*/
+    width: 100%; /* La tabla ocupa todo el ancho disponible del cuadro blanco */
+    border-collapse: collapse; /* Une los bordes de las celdas para que se vean finos */
+    margin-top: 20px; /* Separa la tabla del texto superior */
+    background-color: white; /*Define el fondo blanco para la tabla*/
+}
+th, td {    /* Estilos comunes para celdas de cabecera (th) y de datos (td) */
+    border: 1px solid #ddd; /* Bordes para delimitar las celdas */
+    padding: 12px; /* Espaciado interno para que los datos no estén apretados */
+    text-align: center; /* Centra el texto de las celdas */
+}
+thead {  /* Estilos específicos exclusivos para las celdas de encabezado */
+    background-color: #cc0000; /* Color de cabecera */
+    color: white; /* Texto blanco para que resalte sobre el rojo */
+}
+tbody tr:nth-child(even) {  /* Selector que identifica solo las filas pares de la tabla */
+    background-color: #f2f2f2; /* Color gris claro para las filas pares */
+}
+nav { /*Selector para el área de los enlaces de navegación del sitio*/
+    text-align: center; /*Centra horizontalmente los elementos contenidos en el menú*/
+    background: #333; /*Aplica un color de fondo oscuro para contrastar con el cuerpo*/
+    padding: 10px; /*Crea un margen interno para que el menú tenga altura*/
+}
+nav a { /*Selector para los hipervínculos dentro de la barra de navegación*/
+    color: white; /*Define el color blanco para el texto de los enlaces*/
+    text-decoration: none; /*Elimina el subrayado que los enlaces traen por defecto*/
+    margin: 0 15px; /*Separa los enlaces entre sí de forma lateral*/
+    font-weight: bold; /*Aplica un grosor de fuente negrita para destacar los enlaces*/
+}
+nav a:hover { /*Define el cambio visual al pasar el ratón por encima*/
+    color: #cc0000; /*Cambia el color del texto al pasar el ratón*/
+}
